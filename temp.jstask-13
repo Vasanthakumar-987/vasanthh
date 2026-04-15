@@ -1,0 +1,13 @@
+let temperatures = [32, 18, 25, 40, 12];
+
+for (let i = 0; i < temperatures.length; i++) {
+
+  if (temperatures[i] > 30) {
+    console.log(temperatures[i] + "°C - Hot");
+  } else if (temperatures[i] >= 20) {
+    console.log(temperatures[i] + "°C - Warm");
+  } else {
+    console.log(temperatures[i] + "°C - Cold");
+  }
+
+}
